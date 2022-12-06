@@ -34,8 +34,8 @@ export default function Navbar() {
           </Typography>
 
 
-        {user && <Button color="inherit" onClick={handleLogout}>Logout</Button> }
-        {!user && <Button color="inherit" onClick={() => navigate("/login")}>Login</Button> }
+        {user?.email && <Button color="inherit" onClick={handleLogout}>Logout</Button> }
+        {!user?.email && <Button color="inherit" onClick={() => navigate("/login")}>Login</Button> }
         </Toolbar>
       </AppBar>
     </Box>

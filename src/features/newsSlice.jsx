@@ -7,13 +7,13 @@ const initialState = {
 }
 
 const newsSlice = createSlice({
-  name: "second",
+  name: "news",
   initialState,
   reducers: {
     clearNewList : (state) => {
-        state.newsList = []
-    }
-}
+        state.newsList = [];
+    },
+},
 });
 
 export const {clearNewList} = newsSlice.actions
