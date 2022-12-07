@@ -1,3 +1,6 @@
+![Animation14121241334fsdfs](https://user-images.githubusercontent.com/102485608/206149449-be0ca8cc-8571-4c6d-ad08-eb116d9dbfe7.gif)
+
+
 # Redux Toolkit Ornegi
 
 ## `Kurulum`
